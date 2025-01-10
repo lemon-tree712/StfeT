@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="23fac049-3c7e-4ad1-9b67-0f37c79d1281" name="region-11.autodl.com">
+        <fileTransfer rootFolder="/root/autodl-nas" accessType="SFTP" host="region-11.autodl.com" port="14104" sshConfigId="a81d0a9d-9893-4861-91dc-cf4a44739daf" sshConfig="root@region-11.autodl.com:14104 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ae62a93e-842c-4f7f-9492-7fc8162da3c0" name="region-3.seetacloud.com">
+        <fileTransfer rootFolder="/root/autodl-fs" accessType="SFTP" host="region-3.seetacloud.com" port="53672" sshConfigId="8471ec4d-11ae-4cb7-ad6b-8058b992d59e" sshConfig="root@region-3.seetacloud.com:53672 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
